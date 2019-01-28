@@ -19,6 +19,9 @@
         h1 {
             margin-bottom: 0px;
         }
+        h2 {
+            font-family: 'Work Sans', sans-serif;
+        }
         .nav {
             float: right;
         }
@@ -72,21 +75,32 @@
             </div>
         </div>
         <hr>
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Contact</h2>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron border border-primary">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Thoughts...</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your two cents."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Thoughts...</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </div>
     <div class="footer">
         <footer class="card-footer bg-light footer-font-style text-muted footer-position">
