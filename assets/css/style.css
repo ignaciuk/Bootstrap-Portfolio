@@ -33,8 +33,11 @@ a:hover {
     background-color: rgb(0,45,180);
 
 }
-#btn-about-me {
-    margin-top: 10px;
+.btn-portfolio {
+    margin-top: 5px;
+}
+.btn-about-me {
+    margin-top: 5px;
 }
 .my-4 {
     margin-top: .5rem;
@@ -77,7 +80,6 @@ h2 {
 .card {
     margin: 1em;
     background-color:rgba(255, 255, 255, 0.55); 
-;
 }
 .footer {
     position: fixed;
@@ -88,27 +90,22 @@ h2 {
     color: white;
     text-align: center;
 }
-
 .container {
     margin-bottom: 75px;
 }
-
 #menu {
     width: 100px;
     font-size: 3em;
     font-weight: bolder;
     transition: width 2s;
 }
-
 #menu:hover {
     opacity: .5;
     width: 300px;
 }
-
 #my-name {
     color: black !important;
 }
-
 #my-name:hover {
     text-decoration: none;
 }
